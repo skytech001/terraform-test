@@ -17,6 +17,6 @@ resource "aws_instance" "my-test-app" {
     key_name = "mysecondkey"
 
     tags = {
-        Name = "my-ec2"
+        Name = "my-git-terr-test"
     }
 }
